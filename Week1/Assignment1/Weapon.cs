@@ -26,15 +26,15 @@ namespace Assignment1
         }
         public static int CompareByType(Weapon left, Weapon right)
         {
-            return left.Name.CompareTo(right.Type);
+            return left.Type.CompareTo(right.Type);
         }
         public static int CompareByRarity(Weapon left, Weapon right)
         {
-            return left.Name.CompareTo(right.Rarity);
+            return left.Rarity.CompareTo(right.Rarity);
         }
         public static int CompareByBaseAttack(Weapon left, Weapon right)
         {
-            return left.Name.CompareTo(right.BaseAttack);
+            return left.BaseAttack.CompareTo(right.BaseAttack);
         }
         // TODO: add sort for each property:
         // CompareByType

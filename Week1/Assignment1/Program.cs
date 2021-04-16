@@ -83,9 +83,11 @@ namespace Assignment1
                 }
                 else if (args[i] == "-s" || args[i] == "--sort")
                 {
+                    sortEnabled = true;
                     if(args.Length > i + 1)//make sure there is next args
                     {
-                        sortEnabled = true;
+                        sortColumnName = args[i + 1];
+                        i++;
                     }
                     // TODO: set the sortEnabled flag and see if the next argument is set for the column name
                     // TODO: set the sortColumnName string used for determining if there's another sort function.
@@ -130,23 +132,24 @@ namespace Assignment1
                 // TODO: add implementation to determine the column name to trigger a different sort. (Hint: column names are the 4 properties of the weapon class)
 
                 // print: Sorting by <column name> e.g. BaseAttack
+                Console.WriteLine($@"Sorting by {sortColumnName}");
 
                 // Sorts the list based off of the Weapon name.
-                if (sortColumnName == "name")
+                if (sortColumnName == "Name")
                 {
                     results.Sort(Weapon.CompareByName);
                 }
-                else if (sortColumnName == "type")
+                else if (sortColumnName == "Type")
                 {
-                    results.Sort(Weapon.CompareByName);
+                    results.Sort(Weapon.CompareByType);
                 }
-                else if (sortColumnName == "rarity")
+                else if (sortColumnName == "Rarity")
                 {
-                    results.Sort(Weapon.CompareByName);
+                    results.Sort(Weapon.CompareByRarity);
                 }
-                else if (sortColumnName == "baseattack")
+                else if (sortColumnName == "BaseAttack")
                 {
-                    results.Sort(Weapon.CompareByName);
+                    results.Sort(Weapon.CompareByBaseAttack);
                 }
                 else
                 {
@@ -182,9 +185,9 @@ namespace Assignment1
                         // TODO: write the header of the output "Name,Type,Rarity,BaseAttack"
                         writer.WriteLine("Name,Type,Rarity,BaseAttack");
                         // TODO: use the writer to output the results.
+                        int r = 0;
                         foreach(var line in results)
                         {
-                            int r = 0;
                             writer.WriteLine(results[r]);
                             r++;
                         }
