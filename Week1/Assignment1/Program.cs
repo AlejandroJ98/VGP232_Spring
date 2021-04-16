@@ -4,8 +4,8 @@ using System.IO;
 
 // TODO: Fill in your name and student number.
 // Assignment 1
-// NAME: 
-// STUDENT NUMBER: 
+// NAME: Jianpeng Jiao
+// STUDENT NUMBER: 1940153
 
 namespace Assignment1
 {
