@@ -7,6 +7,10 @@ using System.IO;
 // NAME: Jianpeng Jiao
 // STUDENT NUMBER: 1940153
 
+//Grade: 95/100
+//Comment: To see where are your mistakes, search for ERROR:
+//To find comments search for ERICK'S COMMENT
+
 namespace Assignment1
 {
     class MainClass
@@ -83,6 +87,7 @@ namespace Assignment1
                 }
                 else if (args[i] == "-s" || args[i] == "--sort")
                 {
+                    //ERROR 1: Move the sortEnabled inside the if statement. Just sort if you have the argument to sort.
                     sortEnabled = true;
                     if(args.Length > i + 1)//make sure there is next args
                     {
@@ -133,6 +138,8 @@ namespace Assignment1
 
                 // print: Sorting by <column name> e.g. BaseAttack
                 Console.WriteLine($@"Sorting by {sortColumnName}");
+
+                //ERICK'S COMMENT: When you have more than 3 conditions, use it switch statement.
 
                 // Sorts the list based off of the Weapon name.
                 if (sortColumnName == "Name")
@@ -185,6 +192,10 @@ namespace Assignment1
                         // TODO: write the header of the output "Name,Type,Rarity,BaseAttack"
                         writer.WriteLine("Name,Type,Rarity,BaseAttack");
                         // TODO: use the writer to output the results.
+                        
+                        //ERROR: -2. If you are using a foreach, line will assume all the values of results array.
+                        //so writer.Writeline(line);
+
                         int r = 0;
                         foreach(var line in results)
                         {
@@ -231,6 +242,36 @@ namespace Assignment1
             {
                 // Skip the first line because header does not need to be parsed.
                 // Name,Type,Rarity,BaseAttack
+
+                //ERROR: -2. You are using Parse outside a try catch block. This can crash your application.
+
+                //int lineNumber = 0;
+                //while (reader.Peek() > 0)
+                //{
+                //    string line = reader.ReadLine();
+                //    // string[] values = line.Split(',');
+                //    string[] values = line.Split(',');
+                //    Weapon weapon = new Weapon();
+
+                //    // NOTE using int.TryParse is ok too then they don't need the exception.
+                //    try
+                //    {
+                //        if (values.Length == 4)
+                //        {
+                //            weapon.Name = values[0];
+                //            weapon.Type = values[1];
+                //            weapon.Rarity = int.Parse(values[2]);
+                //            weapon.BaseAttack = int.Parse(values[3]);
+                //            output.Add(weapon);
+                //        }
+                //        lineNumber++;
+                //    }
+                //    catch (Exception)
+                //    {
+                //        Console.WriteLine("Unable to parse line {0}", lineNumber);
+                //    }
+                //}
+
 
                 string header = reader.ReadLine();
 
