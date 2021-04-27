@@ -7,7 +7,7 @@ using System.IO;
 // NAME: Jianpeng Jiao
 // STUDENT NUMBER: 1940153
 
-namespace Assignment1
+namespace Assignment2
 {
     class MainClass
     {
@@ -29,7 +29,7 @@ namespace Assignment1
 
             // The flag to determine if we need to sort the results via name.
             bool sortEnabled = false;
-            
+
             // The column name to be used to determine which sort comparison function to use.
             string sortColumnName = string.Empty;
 
@@ -83,7 +83,7 @@ namespace Assignment1
                 }
                 else if (args[i] == "-s" || args[i] == "--sort")
                 {
-                    if(args.Length > i + 1)//make sure there is next args
+                    if (args.Length > i + 1)//make sure there is next args
                     {
                         sortEnabled = true;
                         sortColumnName = args[i + 1];
@@ -136,7 +136,7 @@ namespace Assignment1
                 Console.WriteLine($@"Sorting by {sortColumnName}");
 
                 // Sorts the list based off of the Weapon name.
-                switch(sortColumnName)
+                switch (sortColumnName)
                 {
                     case "Name":
                         {
@@ -164,8 +164,8 @@ namespace Assignment1
                 }
             }
 
-            
-           
+
+
             //    if (sortColumnName == "Name")
             //    {
             //        results.Sort(Weapon.CompareByName);
@@ -216,7 +216,7 @@ namespace Assignment1
                         // TODO: write the header of the output "Name,Type,Rarity,BaseAttack"
                         writer.WriteLine("Name,Type,Rarity,BaseAttack");
                         // TODO: use the writer to output the results.
-                        foreach(var line in results)
+                        foreach (var line in results)
                         {
                             writer.WriteLine(line);
                         }
