@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment2
+namespace Assignment2a
 {
     public enum weapontype
     {
-        Sword,
-        Polearm,
-        Claymore,
-        Catalyst,
-        Bow,
+        Sword, 
+        Polearm, 
+        Claymore, 
+        Catalyst, 
+        Bow, 
         None
     }
 
