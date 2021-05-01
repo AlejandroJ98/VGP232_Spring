@@ -34,7 +34,7 @@ namespace Assignment2
             string sortColumnName = string.Empty;
 
             // The results to be output to a file or to the console
-            List<Weapon> results = new List<Weapon>();
+            WeaponCollection results = new WeaponCollection();
 
             for (int i = 0; i < args.Length; i++)
             {
@@ -77,7 +77,7 @@ namespace Assignment2
                         else
                         {
                             // This function returns a List<Weapon> once the data is parsed.
-                            results = Parse(inputFile);
+                            results.Load(inputFile);
                         }
                     }
                 }
@@ -200,7 +200,7 @@ namespace Assignment2
                     FileStream fs;
 
                     // Check if the append flag is set, and if so, then open the file in append mode; otherwise, create the file to write.
-                    if (appendToFile && File.Exists((outputFile)))
+                    if (appendToFile && File.Exists(outputFile))
                     {
                         fs = File.Open(outputFile, FileMode.Append);
                     }
@@ -242,63 +242,59 @@ namespace Assignment2
         /// </summary>
         /// <param name="fileName">The path to the file</param>
         /// <returns>The list of Weapons</returns>
-        public static List<Weapon> Parse(string fileName)
-        {
+        //public static List<Weapon> Parse(string fileName)
+        //{
 
-            // TODO: implement the streamreader that reads the file and appends each line to the list
-            // note that the result that you get from using read is a string, and needs to be parsed 
-            // to an int for certain fields i.e. HP, Attack, etc.
-            // i.e. int.Parse() and if the results cannot be parsed it will throw an exception
-            // or can use int.TryParse() 
+        //    // TODO: implement the streamreader that reads the file and appends each line to the list
+        //    // note that the result that you get from using read is a string, and needs to be parsed 
+        //    // to an int for certain fields i.e. HP, Attack, etc.
+        //    // i.e. int.Parse() and if the results cannot be parsed it will throw an exception
+        //    // or can use int.TryParse() 
 
-            // streamreader https://msdn.microsoft.com/en-us/library/system.io.streamreader(v=vs.110).aspx
-            // Use string split https://msdn.microsoft.com/en-us/library/system.string.split(v=vs.110).aspx
+        //    // streamreader https://msdn.microsoft.com/en-us/library/system.io.streamreader(v=vs.110).aspx
+        //    // Use string split https://msdn.microsoft.com/en-us/library/system.string.split(v=vs.110).aspx
 
-            List<Weapon> output = new List<Weapon>();
+        //    List<Weapon> output = new List<Weapon>();
 
-            using (StreamReader reader = new StreamReader(fileName))
-            {
-                // Skip the first line because header does not need to be parsed.
-                // Name,Type,Rarity,BaseAttack
+        //    using (StreamReader reader = new StreamReader(fileName))
+        //    {
+        //        // Skip the first line because header does not need to be parsed.
+        //        // Name,Type,Rarity,BaseAttack
 
-                string header = reader.ReadLine();
+        //        string header = reader.ReadLine();
 
-                // The rest of the lines looks like the following:
-                // Skyward Blade,Sword,5,46
-                int lineNumber = 0;
-                while (reader.Peek() > 0)
-                {
-                    string line = reader.ReadLine();
-                    // string[] values = line.Split(',');
-                    string[] values = line.Split(',');
-                    Weapon weapon = new Weapon();
+        //        // The rest of the lines looks like the following:
+        //        // Skyward Blade,Sword,5,46
+        //        int lineNumber = 0;
+        //        while (reader.Peek() > 0)
+        //        {
+        //            string line = reader.ReadLine();
+        //            // string[] values = line.Split(',');
+        //            string[] values = line.Split(',');
+        //            Weapon weapon = new Weapon();
 
-                    // NOTE using int.TryParse is ok too then they don't need the exception.
-                    try
-                    {
-                        if (values.Length == 4)
-                        {
-                            weapon.Name = values[0];
-                            weapon.Type = values[1];
-                            weapon.Rarity = int.Parse(values[2]);
-                            weapon.BaseAttack = int.Parse(values[3]);
-                            output.Add(weapon);
-                        }
-                        lineNumber++;
-                    }
-                    catch (Exception)
-                    {
-                        Console.WriteLine("Unable to parse line {0}", lineNumber);
-                    }
+        //            // NOTE using int.TryParse is ok too then they don't need the exception.
+        //            try
+        //            {
+        //                if (values.Length == 4)
+        //                {
+        //                    output.Add(weapon);
+        //                }
+        //                lineNumber++;
+        //            }
+        //            catch (Exception)
+        //            {
+        //                Console.WriteLine("Unable to parse line {0}", lineNumber);
+        //            }
 
-                    // TODO: validate that the string array the size expected.
-                    // TODO: use int.Parse or TryParse for stats/number values.
-                    // Populate the properties of the Weapon
-                    // TODO: Add the Weapon to the list
-                }
-            }
+        //            // TODO: validate that the string array the size expected.
+        //            // TODO: use int.Parse or TryParse for stats/number values.
+        //            // Populate the properties of the Weapon
+        //            // TODO: Add the Weapon to the list
+        //        }
+        //    }
 
-            return output;
-        }
+        //    return output;
+        //}
     }
 }

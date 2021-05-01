@@ -6,11 +6,21 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
+    public enum weapontype
+    {
+        Sword, 
+        Polearm, 
+        Claymore, 
+        Catalyst, 
+        Bow, 
+        None
+    }
+
     public class Weapon
     {
         // Name,Type,Rarity,BaseAttack
         public string Name { get; set; }
-        public string Type { get; set; }
+        public weapontype Type { get; set; }
         public int Rarity { get; set; }
         public int BaseAttack { get; set; }
 
@@ -49,11 +59,39 @@ namespace Assignment2
         /// The Weapon string with all the properties
         /// </summary>
         /// <returns>The Weapon formated string</returns>
+
+        public static bool TryParse(string rawData, out Weapon weapon)
+        {
+            string[] values = rawData.Split(',');
+            weapon = new Weapon();
+
+            // NOTE using int.TryParse is ok too then they don't need the exception.
+            if (values.Length == 7)
+            {
+                try
+                {
+                    weapon.Name = values[0];
+                    weapon.Type = Enum.Parse<weapontype>(values[1]);
+                    weapon.Image = values[2];
+                    weapon.Rarity = int.Parse(values[3]);
+                    weapon.BaseAttack = int.Parse(values[4]);
+                    weapon.SecondaryStat = values[5];
+                    weapon.Passive = values[6];
+                    return true;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Unable to parse");
+                    return false;
+                }
+            }
+            return false;
+        }
         public override string ToString()
         {
             // TODO: construct a comma seperated value string
             // Name,Type,Rarity,BaseAttack
-            string message = $@"{Name}, {Type}, {Rarity}, {BaseAttack}";
+            string message = $@"{Name}, {Type}, {Rarity}, {BaseAttack}, {Image}, {SecondaryStat}, {Passive}";
             return message;
         }
     }

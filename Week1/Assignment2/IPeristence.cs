@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment2a
+namespace Assignment2
 {
     public interface IPeristence
     {
