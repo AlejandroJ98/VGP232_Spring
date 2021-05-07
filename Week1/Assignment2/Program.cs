@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 
 // TODO: Fill in your name and student number.
-// Assignment 1
+// Assignment 2a
 // NAME: Jianpeng Jiao
 // STUDENT NUMBER: 1940153
+
+//Grade: 84/100
 
 namespace Assignment2
 {
@@ -127,6 +129,8 @@ namespace Assignment2
                 }
             }
 
+            //ERROR: -3. Why are you not using the SortBy method that you created for weaponCollection?
+            //replace all of this by: results.SortBy(columnName
             if (sortEnabled)
             {
 
@@ -193,6 +197,11 @@ namespace Assignment2
                 Console.WriteLine("There are {0} entries", results.Count);
             }
 
+
+            //ERROR: -5. You have a Save function, why you didn't replace here?
+            //if(appendToFile){
+            //  results.Save(outputfile)
+            //}
             if (results.Count > 0)
             {
                 if (!string.IsNullOrEmpty(outputFile))
@@ -236,6 +245,9 @@ namespace Assignment2
 
             Console.WriteLine("Done!");
         }
+
+
+        //COMMENT: <REMOVE COMMENTED CODE>
 
         /// <summary>
         /// Reads the file and line by line parses the data into a List of Weapons

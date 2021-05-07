@@ -9,13 +9,13 @@ namespace Assignment2
     {
         public bool Load(string filename)
         {
-            //this.Clear();
             if (!File.Exists(filename))
             {
                 return false;
             }
             using (StreamReader reader = new StreamReader(filename))
             {
+                this.Clear();
                 string header = reader.ReadLine();
                 while (reader.Peek() != -1)
                 {
@@ -55,6 +55,8 @@ namespace Assignment2
             var weapon = this[0];
             return weapon.BaseAttack;
         }
+
+        //COMMENT: Remove commented code.
         public List<Weapon> GetAllWeaponsOfType(weapontype type)
         {
             List<Weapon> weapon = new List<Weapon>();
@@ -86,6 +88,13 @@ namespace Assignment2
             }
             return weapon;
         }
+        //ERROR: -5. You are comparing against an specific name. Get the columnName first and make it
+        //all lower case before you compare with lower case names.
+        //switch(columnName.ToLower()){
+        // case "name":
+        // ...
+
+        //Also, where are the new properties like image, secondarystat, passive?
         void SortBy(string columnName)
         {
             switch(columnName)

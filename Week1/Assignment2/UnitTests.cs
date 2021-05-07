@@ -105,6 +105,19 @@ namespace Assignment2
             Assert.AreEqual(weaponcollection.Count,0);
         }
 
+        //ERROR -2. Test Error.
+        //public void WeaponCollection_SaveWithValuesCanLoad_TrueAndNotEmpty()
+        //{
+        //    // Load the data
+        //    weaponCollection.Load(inputPath);
+        //    weaponCollection.Save(outputPath);
+
+        //    // Save returns true, load returns true, and WeaponCollection is not empty.
+        //    Assert.IsTrue(weaponCollection.Load(inputPath));
+        //    Assert.IsTrue(weaponCollection.Save(outputPath));
+        //    Assert.AreNotEqual(weaponCollection.Count, 0);
+        //}
+
         [Test]
         public void WeaponCollection_SaveWithValuesCanLoad_TrueAndNotEmpty()
         {

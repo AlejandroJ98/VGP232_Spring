@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
+    //ERROR -1: Enums, to be better organized, they should start with Capital letter and all the other words
+    //starting with capital as well... For example: WeaponType.
     public enum weapontype
     {
         Sword,
