@@ -97,24 +97,24 @@ namespace Assignment2
         //Also, where are the new properties like image, secondarystat, passive?
         void SortBy(string columnName)
         {
-            switch(columnName)
+            switch(columnName.ToLower())
             {
-                case "Name":
+                case "name":
                     {
                         this.Sort(Weapon.CompareByName);
                         break;
                     }
-                case "Type":
+                case "type":
                     {
                         this.Sort(Weapon.CompareByType);
                         break;
                     }
-                case "Rarity":
+                case "rarity":
                     {
                         this.Sort(Weapon.CompareByRarity);
                         break;
                     }
-                case "BaseAttack":
+                case "baseattack":
                     {
                         this.Sort(Weapon.CompareByBaseAttack);
                         break;

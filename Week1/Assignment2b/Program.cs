@@ -9,7 +9,7 @@ using System.IO;
 
 //Grade: 84/100
 
-namespace Assignment2
+namespace Assignment2b
 {
     class MainClass
     {
