@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 
 // TODO: Fill in your name and student number.
-// Assignment 2a
+// Assignment 2b
 // NAME: Jianpeng Jiao
 // STUDENT NUMBER: 1940153
 
-//Grade: 84/100
+//Grade: 100/100
 
 namespace Assignment2b
 {
