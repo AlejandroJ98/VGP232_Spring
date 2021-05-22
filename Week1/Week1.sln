@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2", "Assignment2\Assignment2.csproj", "{350C035A-7BDE-4958-951C-429D873EBEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2b", "Assignment2b\Assignment2b.csproj", "{D920610C-D9B7-4934-82DE-C1107EEAD6E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2b", "Assignment2b\Assignment2b.csproj", "{D920610C-D9B7-4934-82DE-C1107EEAD6E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2c", "Assignment2c\Assignment2c.csproj", "{ED0256DB-36BB-49D5-8D96-B7EACCFC6747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponLib", "WeaponLib\WeaponLib.csproj", "{53A3C1CC-E609-4638-A995-3FFA175E4B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{D920610C-D9B7-4934-82DE-C1107EEAD6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D920610C-D9B7-4934-82DE-C1107EEAD6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D920610C-D9B7-4934-82DE-C1107EEAD6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0256DB-36BB-49D5-8D96-B7EACCFC6747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0256DB-36BB-49D5-8D96-B7EACCFC6747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0256DB-36BB-49D5-8D96-B7EACCFC6747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0256DB-36BB-49D5-8D96-B7EACCFC6747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A3C1CC-E609-4638-A995-3FFA175E4B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A3C1CC-E609-4638-A995-3FFA175E4B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A3C1CC-E609-4638-A995-3FFA175E4B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A3C1CC-E609-4638-A995-3FFA175E4B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

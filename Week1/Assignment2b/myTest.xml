@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWeapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Name>fireball</Name>
+    <Type>Sword</Type>
+    <Rarity>1</Rarity>
+    <BaseAttack>0</BaseAttack>
+    <Image>0</Image>
+    <SecondaryStat>0</SecondaryStat>
+    <Passive>0</Passive>
+  </Weapon>
+</ArrayOfWeapon>
