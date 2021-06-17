@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Real_Assignment_3", "Real_A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextureAtlasLib", "TextureAtlasLib\TextureAtlasLib.csproj", "{2C0F9A55-374C-4A80-9A48-E05824A9A85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4", "Assignment4\Assignment4.csproj", "{9CE0F0E3-DF43-4AE8-8F3C-C2DAF246CCFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment4", "Assignment4\Assignment4.csproj", "{9CE0F0E3-DF43-4AE8-8F3C-C2DAF246CCFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalPrep", "FinalPrep\FinalPrep.csproj", "{35D6D352-7282-4C04-A78D-B616ADD84D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunLib", "GunLib\GunLib.csproj", "{76CDE639-41AF-4DF4-A22D-771133316103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject", "FinalProject\FinalProject.csproj", "{EFD4E38F-3055-4BDD-B2B6-460308A01AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{9CE0F0E3-DF43-4AE8-8F3C-C2DAF246CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CE0F0E3-DF43-4AE8-8F3C-C2DAF246CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE0F0E3-DF43-4AE8-8F3C-C2DAF246CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D6D352-7282-4C04-A78D-B616ADD84D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D6D352-7282-4C04-A78D-B616ADD84D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D6D352-7282-4C04-A78D-B616ADD84D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D6D352-7282-4C04-A78D-B616ADD84D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CDE639-41AF-4DF4-A22D-771133316103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CDE639-41AF-4DF4-A22D-771133316103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CDE639-41AF-4DF4-A22D-771133316103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CDE639-41AF-4DF4-A22D-771133316103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD4E38F-3055-4BDD-B2B6-460308A01AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD4E38F-3055-4BDD-B2B6-460308A01AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD4E38F-3055-4BDD-B2B6-460308A01AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD4E38F-3055-4BDD-B2B6-460308A01AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

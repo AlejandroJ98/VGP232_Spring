@@ -1,0 +1,32 @@
+﻿Name,Type,Image,EffectiveRange,Caliber,DesignedYear,Country
+M1 Garand,SemiAutomaticRifle,https://zh.wikipedia.org/wiki/%E5%8D%8A%E8%87%AA%E5%8A%A8%E6%AD%A5%E6%9E%AA#/media/File:M1-Garand-Rifle.jpg,475,7.62,1924,The States
+M9 Beretta,Pistol,https://en.wikipedia.org/wiki/Beretta_M9#/media/File:M9-pistolet.jpg,50,9,1980,Italy
+Barrett,AntiMaterielRifle,https://en.wikipedia.org/wiki/Barrett_M82#/media/File:M82A1_barrett.jpeg,1850,13,1980,The States
+M4 carbine,AssaultRifle,https://en.wikipedia.org/wiki/M4_carbine#/media/File:PEO_M4_Carbine_RAS_M68_CCO.jpg,500,5.56,1982,The States
+M16 rifle,AssaultRifle,https://en.wikipedia.org/wiki/M16_rifle#/media/File:M16a1m16a2m4m16a45wi.jpg,550,5.56,1959,The States
+M14 rifle,AutomaticRifle,https://en.wikipedia.org/wiki/M14_rifle#/media/File:M14_Stand-off_Munitions_Disruptor_(SMUD)_(7414626342).jpg,800,7.62,1954,The States
+M1903 Springfield,BoltActionRifle,https://en.wikipedia.org/wiki/M1903_Springfield#/media/File:Springfield-remove-bg.png,1100,7.62,1903,The States
+Winchester Model 1894,LeverActionRifle,https://en.wikipedia.org/wiki/Winchester_Model_1894#/media/File:Winchester94_forest.jpg,700,357,1894,The States
+Martini Henry,Shotgun,https://en.wikipedia.org/wiki/Martini%E2%80%93Henry#/media/File:Martini-Henry_m1871_-_England_-_AM.032017.jpg,370,7.65,1870,UK
+Henry rifle,LeverActionRifle,https://en.wikipedia.org/wiki/Henry_rifle#/media/File:NMAH-2004-26295-12_transparent.png,700,0.44,1860,The States
+M134 Minigun,MachineGun,https://en.wikipedia.org/wiki/M134_Minigun#/media/File:Mi-171%C5%A0_sliding_door_-_Minigun.jpg,1000,7.62,1960,The States
+M249 light machine gun,MachineGun,https://en.wikipedia.org/wiki/M249_light_machine_gun#/media/File:PEO_M249_Para_ACOG.jpg,800,5.56,1976,The States
+Accuracy International Arctic Warfare,SniperRifle,https://en.wikipedia.org/wiki/Accuracy_International_Arctic_Warfare#/media/File:Aw-removebg.png,800,7.62,1982,UK
+Desert Eagle,Pistol,https://en.wikipedia.org/wiki/Desert_Eagle#/media/File:Deagle44.jpg,201,13,1979,Israel
+Remington Model 1875,Revolver,https://en.wikipedia.org/wiki/Remington_Model_1875#/media/File:Burnham_sidearm.jpg,50,0.45,1875,The States
+Colt 1851 Navy Revolver,Revolver,https://en.wikipedia.org/wiki/Colt_1851_Navy_Revolver#/media/File:Colt_Navy_Model_1851.JPG,50,0.36,1850,The States
+Spencer repeating rifle,LeverActionRifle,https://en.wikipedia.org/wiki/Spencer_repeating_rifle#/media/File:M1865_REPEATING_RIFLE.jpg,457,13,1860,The States
+Double-barreled shotgun,Shotgun,https://en.wikipedia.org/wiki/Double-barreled_shotgun#/media/File:ShotgunAction.JPG,36,12,1860,The States
+Sharps rifle,FallingBlockRifle,https://en.wikipedia.org/wiki/Sharps_rifle#/media/File:Berdan_Sharps_rifle.jpg,910,0.52,1848,The States
+Lee Enfield,BoltActionRifle,https://en.wikipedia.org/wiki/Lee%E2%80%93Enfield#/media/File:Short_Magazine_Lee-Enfield_Mk_1_(1903)_-_UK_-_cal_303_British_-_Arm%C3%A9museum.jpg,503,7.62,1895,UK
+Swedish Mauser,BoltActionRifle, ,800,6.5,1893,Sweden
+Karabiner 98k,BoltActionRifle,https://en.wikipedia.org/wiki/Karabiner_98k#/media/File:Kar_98K_-_AM.021488.jpg,500,7.92,1935,Germany
+stG 44,AssaultRifle,https://en.wikipedia.org/wiki/StG_44#/media/File:Sturmgewehr44_noBG.jpg,300,7.92,1938,Germany
+FG42,AutomaticRifle,https://en.wikipedia.org/wiki/FG_42#/media/File:FG42.jpg,600,7.92,1941,Germany
+MG34,MachineGun,https://en.wikipedia.org/wiki/MG_34#/media/File:Digital_Museum_MG_34_Right_noBG.png,2000,7.92,1934,Germany
+MP18,SubmachineGun,https://en.wikipedia.org/wiki/MP_18#/media/File:Bergmann_MP18.1.JPG,200,7.65,1916,Germany
+MP5,SubmachineGun,https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP5#/media/File:Heckler_&_Koch_MP5-1.jpg,200,7.62,1964,Germany
+MG42,MachineGun,https://en.wikipedia.org/wiki/MG_42#/media/File:MG42_Sideview_2.jpg,2000,7.92,1942,Germany
+Gewehr 43,SemiAutomaticRifle,https://en.wikipedia.org/wiki/Gewehr_43#/media/File:Gewehr_43_noBG.jpg,500,7.92,1943,Germany
+Thompson submachine gun,SubmachineGun,https://en.wikipedia.org/wiki/Thompson_submachine_gun#/media/File:Campbell_Thompson.jpg,150,0.45,1917,The States
+

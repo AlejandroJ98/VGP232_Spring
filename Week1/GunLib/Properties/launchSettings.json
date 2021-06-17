@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GunLib": {
+      "commandName": "Project",
+      "commandLineArgs": "-i gun.csv -o output.csv -c -s Caliber"
+    }
+  }
+}

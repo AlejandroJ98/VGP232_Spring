@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWeapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Name>M1 Garand</Name>
+    <Type>SemiAutomaticRifle</Type>
+    <EffectiveRange>475</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://zh.wikipedia.org/wiki/%E5%8D%8A%E8%87%AA%E5%8A%A8%E6%AD%A5%E6%9E%AA#/media/File:M1-Garand-Rifle.jpg</Image>
+    <DesignedYear>1924</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M9 Beretta</Name>
+    <Type>Pistol</Type>
+    <EffectiveRange>50</EffectiveRange>
+    <Caliber>9</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Beretta_M9#/media/File:M9-pistolet.jpg</Image>
+    <DesignedYear>1980</DesignedYear>
+    <Country>Italy</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Barrett</Name>
+    <Type>AntiMaterielRifle</Type>
+    <EffectiveRange>1850</EffectiveRange>
+    <Caliber>13</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Barrett_M82#/media/File:M82A1_barrett.jpeg</Image>
+    <DesignedYear>1981</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M4 carbine</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M4_carbine#/media/File:PEO_M4_Carbine_RAS_M68_CCO.jpg</Image>
+    <DesignedYear>1983</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M16 rifle</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>550</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M16_rifle#/media/File:M16a1m16a2m4m16a45wi.jpg</Image>
+    <DesignedYear>1959</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M14 rifle</Name>
+    <Type>AutomaticRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M14_rifle#/media/File:M14_Stand-off_Munitions_Disruptor_(SMUD)_(7414626342).jpg</Image>
+    <DesignedYear>1954</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M1903 Springfield</Name>
+    <Type>BoltActionRifle</Type>
+    <EffectiveRange>1100</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M1903_Springfield#/media/File:Springfield-remove-bg.png</Image>
+    <DesignedYear>1903</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Winchester Model 1894</Name>
+    <Type>LeverActionRifle</Type>
+    <EffectiveRange>700</EffectiveRange>
+    <Caliber>357</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Winchester_Model_1894#/media/File:Winchester94_forest.jpg</Image>
+    <DesignedYear>1894</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Martini Henry</Name>
+    <Type>Shotgun</Type>
+    <EffectiveRange>370</EffectiveRange>
+    <Caliber>7.65</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Martini%E2%80%93Henry#/media/File:Martini-Henry_m1871_-_England_-_AM.032017.jpg</Image>
+    <DesignedYear>1870</DesignedYear>
+    <Country>UK</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Henry rifle</Name>
+    <Type>LeverActionRifle</Type>
+    <EffectiveRange>700</EffectiveRange>
+    <Caliber>0.44</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Henry_rifle#/media/File:NMAH-2004-26295-12_transparent.png</Image>
+    <DesignedYear>1860</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M134 Minigun</Name>
+    <Type>MachineGun</Type>
+    <EffectiveRange>1000</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M134_Minigun#/media/File:Mi-171%C5%A0_sliding_door_-_Minigun.jpg</Image>
+    <DesignedYear>1960</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M249 light machine gun</Name>
+    <Type>MachineGun</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M249_light_machine_gun#/media/File:PEO_M249_Para_ACOG.jpg</Image>
+    <DesignedYear>1976</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Accuracy International Arctic Warfare</Name>
+    <Type>SniperRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Accuracy_International_Arctic_Warfare#/media/File:Aw-removebg.png</Image>
+    <DesignedYear>1982</DesignedYear>
+    <Country>UK</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Desert Eagle</Name>
+    <Type>Pistol</Type>
+    <EffectiveRange>201</EffectiveRange>
+    <Caliber>13</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Desert_Eagle#/media/File:Deagle44.jpg</Image>
+    <DesignedYear>1979</DesignedYear>
+    <Country>Israel</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Remington Model 1875</Name>
+    <Type>Revolver</Type>
+    <EffectiveRange>50</EffectiveRange>
+    <Caliber>0.45</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Remington_Model_1875#/media/File:Burnham_sidearm.jpg</Image>
+    <DesignedYear>1875</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Colt 1851 Navy Revolver</Name>
+    <Type>Revolver</Type>
+    <EffectiveRange>50</EffectiveRange>
+    <Caliber>0.36</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Colt_1851_Navy_Revolver#/media/File:Colt_Navy_Model_1851.JPG</Image>
+    <DesignedYear>1850</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Spencer repeating rifle</Name>
+    <Type>LeverActionRifle</Type>
+    <EffectiveRange>457</EffectiveRange>
+    <Caliber>13</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Spencer_repeating_rifle#/media/File:M1865_REPEATING_RIFLE.jpg</Image>
+    <DesignedYear>1861</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Double-barreled shotgun</Name>
+    <Type>Shotgun</Type>
+    <EffectiveRange>36</EffectiveRange>
+    <Caliber>12</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Double-barreled_shotgun#/media/File:ShotgunAction.JPG</Image>
+    <DesignedYear>1859</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Sharps rifle</Name>
+    <Type>FallingBlockRifle</Type>
+    <EffectiveRange>910</EffectiveRange>
+    <Caliber>0.52</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Sharps_rifle#/media/File:Berdan_Sharps_rifle.jpg</Image>
+    <DesignedYear>1848</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Lee Enfield</Name>
+    <Type>BoltActionRifle</Type>
+    <EffectiveRange>503</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Lee%E2%80%93Enfield#/media/File:Short_Magazine_Lee-Enfield_Mk_1_(1903)_-_UK_-_cal_303_British_-_Arm%C3%A9museum.jpg</Image>
+    <DesignedYear>1895</DesignedYear>
+    <Country>UK</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Swedish Mauser</Name>
+    <Type>BoltActionRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>6.5</Caliber>
+    <Image> </Image>
+    <DesignedYear>1893</DesignedYear>
+    <Country>Sweden</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Karabiner 98k</Name>
+    <Type>BoltActionRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Karabiner_98k#/media/File:Kar_98K_-_AM.021488.jpg</Image>
+    <DesignedYear>1935</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>stG 44</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>300</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/StG_44#/media/File:Sturmgewehr44_noBG.jpg</Image>
+    <DesignedYear>1938</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>FG42</Name>
+    <Type>AutomaticRifle</Type>
+    <EffectiveRange>600</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/FG_42#/media/File:FG42.jpg</Image>
+    <DesignedYear>1941</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>MG34</Name>
+    <Type>MachineGun</Type>
+    <EffectiveRange>2000</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/MG_34#/media/File:Digital_Museum_MG_34_Right_noBG.png</Image>
+    <DesignedYear>1934</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>MP18</Name>
+    <Type>SubmachineGun</Type>
+    <EffectiveRange>200</EffectiveRange>
+    <Caliber>7.65</Caliber>
+    <Image>https://en.wikipedia.org/wiki/MP_18#/media/File:Bergmann_MP18.1.JPG</Image>
+    <DesignedYear>1916</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>MP5</Name>
+    <Type>SubmachineGun</Type>
+    <EffectiveRange>200</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Heckler_%26_Koch_MP5#/media/File:Heckler_&amp;_Koch_MP5-1.jpg</Image>
+    <DesignedYear>1964</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>MG42</Name>
+    <Type>MachineGun</Type>
+    <EffectiveRange>2000</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/MG_42#/media/File:MG42_Sideview_2.jpg</Image>
+    <DesignedYear>1942</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Gewehr 43</Name>
+    <Type>SemiAutomaticRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>7.92</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Gewehr_43#/media/File:Gewehr_43_noBG.jpg</Image>
+    <DesignedYear>1943</DesignedYear>
+    <Country>Germany</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Thompson submachine gun</Name>
+    <Type>SubmachineGun</Type>
+    <EffectiveRange>150</EffectiveRange>
+    <Caliber>0.45</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Thompson_submachine_gun#/media/File:Campbell_Thompson.jpg</Image>
+    <DesignedYear>1917</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Remington ACR</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Remington_ACR#/media/File:Bushmaster_ACR.jpg</Image>
+    <DesignedYear>2006</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>FN SCAR</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>300</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/FN_SCAR#/media/File:FN_SCAR-L_-_FN_SCAR-H.jpg</Image>
+    <DesignedYear>2004</DesignedYear>
+    <Country>Belgium</Country>
+  </Weapon>
+  <Weapon>
+    <Name>AK-47</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>350</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/AK-47#/media/File:AK-47_type_II.png</Image>
+    <DesignedYear>1947</DesignedYear>
+    <Country>SovietUnion</Country>
+  </Weapon>
+  <Weapon>
+    <Name>QBZ-03</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>5.8</Caliber>
+    <Image>https://en.wikipedia.org/wiki/QBZ-03#/media/File:QBZ03_automatic_rifle_20170902.jpg</Image>
+    <DesignedYear>2003</DesignedYear>
+    <Country>China</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Dragunov sniper rifle</Name>
+    <Type>SniperRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Dragunov_sniper_rifle#/media/File:SVD_Dragunov.jpg</Image>
+    <DesignedYear>1963</DesignedYear>
+    <Country>SovietUnion</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Mosin Nagant</Name>
+    <Type>BoltActionRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Mosin%E2%80%93Nagant#/media/File:Mosin-remove-bg.png</Image>
+    <DesignedYear>1891</DesignedYear>
+    <Country>RussianEmpire</Country>
+  </Weapon>
+</ArrayOfWeapon>
