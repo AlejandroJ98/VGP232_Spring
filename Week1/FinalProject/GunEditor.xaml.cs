@@ -86,10 +86,10 @@ namespace FinalProject
 
         private void GeneratePressed(object sender, RoutedEventArgs e)
         {
-            range.Text = new Random().Next(50, 2000).ToString();
+            //range.Text = new Random().Next(50, 2000).ToString();
             cbCaliber.SelectedIndex = new Random().Next(13);
             cbType.SelectedIndex = new Random().Next(Enum.GetNames(typeof(weapontype)).Length);
-            year.Text = new Random().Next(1850, 2020).ToString();
+            //year.Text = new Random().Next(1850, 2020).ToString();
         }
 
         

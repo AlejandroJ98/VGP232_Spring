@@ -26,7 +26,7 @@
             <ListBox Name= "lbwl" Margin="28,46,171,9" Grid.RowSpan="3"/>
             <ListBox Name="lbin" Margin="28,37,171,22" Grid.RowSpan="3" Grid.Row="3"/>
             <Button Content="Add" HorizontalAlignment="Left" Height="20" Margin="644,46,0,0" VerticalAlignment="Top" Width="119" Click="AddPressed"/>
-            <Button Content="Edit" HorizontalAlignment="Left" Height="20" Margin="644,35,0,0" VerticalAlignment="Top" Width="119" Click="EditPressed" Grid.Row="2"/>
+            <!--<Button Content="Edit" HorizontalAlignment="Left" Height="20" Margin="644,35,0,0" VerticalAlignment="Top" Width="119" Click="EditPressed" Grid.Row="2"/>-->
 
             <Button Content="Remove" HorizontalAlignment="Left" Height="20" Margin="644,37,0,0" VerticalAlignment="Top" Width="119" Grid.Row="3" Click="RemovePressed"/>
             <Button Content="Save" HorizontalAlignment="Left" Height="20" Margin="644,20,0,0" VerticalAlignment="Top" Width="119" Grid.Row="5" Click="SavePressed"/>

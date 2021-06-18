@@ -91,23 +91,23 @@ namespace FinalProject
             }
         }
 
-        private void EditPressed(object sender, RoutedEventArgs e)
-        {
-            if (lbwl.SelectedIndex == -1)
-            {
-                return;
-            }
+        //private void EditPressed(object sender, RoutedEventArgs e)
+        //{
+        //    if (lbwl.SelectedIndex == -1)
+        //    {
+        //        return;
+        //    }
 
-            GunEditor editWeaponWindow = new GunEditor(lbwl.SelectedItem as Weapon);
-            editWeaponWindow.lbTemp.Visibility = Visibility.Hidden;
-            editWeaponWindow.MyWeapon = lbwl.SelectedItem as Weapon;
+        //    GunEditor editWeaponWindow = new GunEditor(lbwl.SelectedItem as Weapon);
+        //    editWeaponWindow.lbTemp.Visibility = Visibility.Hidden;
+        //    editWeaponWindow.MyWeapon = lbwl.SelectedItem as Weapon;
 
-            if (editWeaponWindow.ShowDialog() == true)
-            {
-                weaponcollection = lbwl.ItemsSource as WeaponCollection;
-                weaponcollection[lbwl.SelectedIndex] = editWeaponWindow.MyWeapon;
-                lbwl.Items.Refresh();
-            }
-        }
+        //    if (editWeaponWindow.ShowDialog() == true)
+        //    {
+        //        weaponcollection = lbwl.ItemsSource as WeaponCollection;
+        //        weaponcollection[lbwl.SelectedIndex] = editWeaponWindow.MyWeapon;
+        //        lbwl.Items.Refresh();
+        //    }
+        //}
     }
 }

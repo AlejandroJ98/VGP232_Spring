@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWeapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Name>M16 rifle</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>550</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M16_rifle#/media/File:M16a1m16a2m4m16a45wi.jpg</Image>
+    <DesignedYear>1959</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M14 rifle</Name>
+    <Type>AutomaticRifle</Type>
+    <EffectiveRange>800</EffectiveRange>
+    <Caliber>7.62</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M14_rifle#/media/File:M14_Stand-off_Munitions_Disruptor_(SMUD)_(7414626342).jpg</Image>
+    <DesignedYear>1954</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+</ArrayOfWeapon>
