@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWeapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapon>
+    <Name>M4 carbine</Name>
+    <Type>AssaultRifle</Type>
+    <EffectiveRange>500</EffectiveRange>
+    <Caliber>5.56</Caliber>
+    <Image>https://en.wikipedia.org/wiki/M4_carbine#/media/File:PEO_M4_Carbine_RAS_M68_CCO.jpg</Image>
+    <DesignedYear>1983</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>Barrett</Name>
+    <Type>AntiMaterielRifle</Type>
+    <EffectiveRange>1850</EffectiveRange>
+    <Caliber>13</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Barrett_M82#/media/File:M82A1_barrett.jpeg</Image>
+    <DesignedYear>1981</DesignedYear>
+    <Country>The States</Country>
+  </Weapon>
+  <Weapon>
+    <Name>M9 Beretta</Name>
+    <Type>Pistol</Type>
+    <EffectiveRange>50</EffectiveRange>
+    <Caliber>9</Caliber>
+    <Image>https://en.wikipedia.org/wiki/Beretta_M9#/media/File:M9-pistolet.jpg</Image>
+    <DesignedYear>1980</DesignedYear>
+    <Country>Italy</Country>
+  </Weapon>
+</ArrayOfWeapon>

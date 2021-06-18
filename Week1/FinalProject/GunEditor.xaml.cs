@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using GunLib;
+using Microsoft.Win32;
 using TextureAtlasLib;
 
 namespace FinalProject
@@ -29,6 +30,18 @@ namespace FinalProject
                 myweapon = value;
                 DataContext = MyWeapon;
             }
+        }
+        public GunEditor()
+        {
+            InitializeComponent();
+
+            string[] weapon = Enum.GetNames(typeof(weapontype));
+            cbType.ItemsSource = weapon;
+
+            MyWeapon = new Weapon();
+
+            double[] caliber = { 7.62, 9, 13, 5.56, 357, 7.65, 0.44, 0.45, 0.36, 12, 0.52, 6.5, 7.92 };
+            cbCaliber.ItemsSource = caliber;
         }
 
         public GunEditor(Weapon weapons)
@@ -78,6 +91,8 @@ namespace FinalProject
             cbType.SelectedIndex = new Random().Next(Enum.GetNames(typeof(weapontype)).Length);
             year.Text = new Random().Next(1850, 2020).ToString();
         }
+
+        
     }
 }
 

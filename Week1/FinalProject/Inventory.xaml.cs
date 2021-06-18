@@ -29,12 +29,27 @@ namespace FinalProject
 
         private void AddPressed(object sender, RoutedEventArgs e)
         {
-
+            if (weaponcollection.Count <= 2)
+            {
+                weaponcollection.Add(lbwl.SelectedItem as Weapon);
+                lbin.ItemsSource = weaponcollection;
+                lbin.Items.Refresh();
+            }
+            else
+            {
+                MessageBox.Show("Warning: You can only add Three Guns in the INVENTORY!");
+            }
         }
 
         private void RemovePressed(object sender, RoutedEventArgs e)
         {
+            if (lbin.SelectedIndex == -1)
+            {
+                return;
+            }
 
+            weaponcollection.RemoveAt(lbin.SelectedIndex);
+            lbin.Items.Refresh();
         }
 
         private void ExitPressed(object sender, RoutedEventArgs e)
@@ -64,7 +79,35 @@ namespace FinalProject
 
         private void SavePressed(object sender, RoutedEventArgs e)
         {
+            SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.Filter = "XML files |*.xml| Json Files |*.json | CSV Files|*.csv";
 
+            if (saveFile.ShowDialog() == true)
+            {
+                if (!weaponcollection.Save(saveFile.FileName))
+                {
+                    MessageBox.Show("Unable to save file.");
+                }
+            }
+        }
+
+        private void EditPressed(object sender, RoutedEventArgs e)
+        {
+            if (lbwl.SelectedIndex == -1)
+            {
+                return;
+            }
+
+            GunEditor editWeaponWindow = new GunEditor(lbwl.SelectedItem as Weapon);
+            editWeaponWindow.lbTemp.Visibility = Visibility.Hidden;
+            editWeaponWindow.MyWeapon = lbwl.SelectedItem as Weapon;
+
+            if (editWeaponWindow.ShowDialog() == true)
+            {
+                weaponcollection = lbwl.ItemsSource as WeaponCollection;
+                weaponcollection[lbwl.SelectedIndex] = editWeaponWindow.MyWeapon;
+                lbwl.Items.Refresh();
+            }
         }
     }
 }

@@ -24,6 +24,8 @@ namespace FinalProject
     public partial class MainWindow : Window
     {
         public WeaponCollection weaponcollection { get; set; }
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -68,9 +70,10 @@ namespace FinalProject
 
         private void AddPressed(object sender, RoutedEventArgs e)
         {
-            GunEditor editweapon = new GunEditor(lbWeapons.SelectedItem as Weapon);
+            GunEditor editweapon = new GunEditor();
             editweapon.bSave.Visibility = Visibility.Hidden;
             editweapon.Title = "Add Weapon";
+            editweapon.lbImage.Visibility = Visibility.Hidden;
             if (editweapon.ShowDialog() == true)
             {
                 weaponcollection.Add(editweapon.MyWeapon);
@@ -79,7 +82,6 @@ namespace FinalProject
                     lbWeapons.ItemsSource = weaponcollection;
                 }
                 lbWeapons.Items.Refresh();
-
             }
         }
 
@@ -91,6 +93,7 @@ namespace FinalProject
             }
 
             GunEditor editWeaponWindow = new GunEditor(lbWeapons.SelectedItem as Weapon);
+            editWeaponWindow.lbTemp.Visibility = Visibility.Hidden;
             editWeaponWindow.MyWeapon = lbWeapons.SelectedItem as Weapon;
 
             if (editWeaponWindow.ShowDialog() == true)
@@ -171,8 +174,13 @@ namespace FinalProject
         private void CheckPressed(object sender, RoutedEventArgs e)
         {
             Inventory window = new Inventory();
+            if(lbWeapons.Items != null)
+            {
+                window.lbwl.ItemsSource = weaponcollection;
+                weaponcollection.weapons = window.lbwl.ItemsSource as List<Weapon>;
+                window.lbwl.Items.Refresh();
+            }
             window.Show();
-            Close();
         }
 
         private void NewPressed(object sender, RoutedEventArgs e)
